@@ -38,7 +38,7 @@ class DetailViewController: UIViewController {
         descLbl.text = movieDeatils["overview"]as? String
         
         
-        let image = movieDeatils["poster_path"] as! String
+        let image = movieDeatils["poster_path"] as? String
         
         
         
